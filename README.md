@@ -1,5 +1,7 @@
 # Gelatinbrain Puzzle Simulator
 
+**[Click here to download](https://github.com/Hypercubers/gelatinbrain/archive/refs/heads/main.zip)**
+
 Everything you need to run the gelatinbrain puzzle simulator
 
 This program is also known as:
