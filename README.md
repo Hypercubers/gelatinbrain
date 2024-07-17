@@ -26,5 +26,5 @@ See also the [archived scoreboard](https://zqjxkvby.000webhostapp.com/permuzzle/
 ## Acknowledgements
 
 - gelatinbrain, for originally developing the program
-- the host of [zqjxkvby.000webhostapp.com](https://zqjxkvby.000webhostapp.com/permuzzle/), for providing a download link and installation instructions
+- the host of [qjxkvby.000webhostapp.com](https://qjxkvbyz.000webhostapp.com/permuzzle/installer.php), for providing a download link and installation instructions
 - Luna and Hactar, for assembling this repository and its dependencies
