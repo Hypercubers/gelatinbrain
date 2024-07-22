@@ -11,7 +11,7 @@ This program is also known as:
 - permuzzle
 - jzzz
 
-See also the [archived scoreboard](https://zqjxkvby.000webhostapp.com/permuzzle/scoreboard.php)
+See also the [archived scoreboard](https://qjxkvbyz.000webhostapp.com/permuzzle/scoreboard.php)
 
 ## Usage
 
