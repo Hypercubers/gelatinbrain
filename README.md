@@ -11,7 +11,7 @@ This program is also known as:
 - permuzzle
 - jzzz
 
-See also the [archived scoreboard](https://qjxkvbyz.000webhostapp.com/permuzzle/scoreboard.php)
+See Gelatinbrain's [official website](https://zqjxkvby.com/permuzzle/), which includes the [scoreboard](https://zqjxkvby.com/permuzzle/scoreboard.php).
 
 ## Usage
 
@@ -26,5 +26,4 @@ See also the [archived scoreboard](https://qjxkvbyz.000webhostapp.com/permuzzle/
 ## Acknowledgements
 
 - gelatinbrain, for originally developing the program
-- the host of [qjxkvby.000webhostapp.com](https://qjxkvbyz.000webhostapp.com/permuzzle/), for providing a download link and installation instructions
 - Luna and Hactar, for assembling this repository and its dependencies
