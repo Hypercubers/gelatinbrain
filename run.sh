@@ -22,21 +22,11 @@ fi
 
 PATH="$(pwd)/jdk-19.0.2/bin:$PATH"
 
-run_permuzzle() {
-    echo "Deleting old session file ..."
-    rm -r permuzzle/sessions
-
-    echo "Running permuzzle ..."
-    java --add-exports java.base/java.lang=ALL-UNNAMED \
-        --add-exports java.desktop/sun.awt=ALL-UNNAMED \
-        --add-exports java.desktop/sun.java2d=ALL-UNNAMED \
-        -cp permuzzle/permuzzle.jar:jogl/gluegen-rt.jar:jogl/jogl-all.jar \
-        jzzz.CStart
-}
-
-run_permuzzle
-while [ -f permuzzle/sessions/.default.zzz ]; do
-    echo "Detected that program was closed with puzzle open"
-    echo "Restarting program ..."
-    run_permuzzle
-done
+echo "Running permuzzle ..."
+# JogAmp 2.7.0-rc-20261020 fixes the macOS puzzle-switching freeze.
+# https://jogamp.org/deployment/archive/master/gluegen_990-joal_700-jogl_1551-jocl_1192/
+exec java --add-exports java.base/java.lang=ALL-UNNAMED \
+    --add-exports java.desktop/sun.awt=ALL-UNNAMED \
+    --add-exports java.desktop/sun.java2d=ALL-UNNAMED \
+    -cp permuzzle/permuzzle.jar:jogl/gluegen-rt.jar:jogl/jogl-all.jar \
+    jzzz.CStart

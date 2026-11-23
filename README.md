@@ -20,10 +20,10 @@ See Gelatinbrain's [official website](https://zqjxkvby.com/permuzzle/), which in
 
 ## Caveats
 
-- On macOS, the program crashes when loading a new puzzle while one is already open. To work around this, close the program; the script will automatically restart it if you had a puzzle open. To actually close the program, close it from the puzzle selection menu.
 - On Linux, the program shows a blank white screen. If anyone knows how to fix this, let us know!
 
 ## Acknowledgements
 
 - gelatinbrain, for originally developing the program
 - Luna and Hactar, for assembling this repository and its dependencies
+- Josie and Sol 6.2, for fixing the macOS crash on puzzle switch
