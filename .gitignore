@@ -1,0 +1,10 @@
+# JDK downloaded by the launchers
+/jdk-19.0.2/
+/jdk-19.0.2.jdk/
+/jdk-19.0.2.tar.gz
+/jdk-19.0.2.zip
+
+# Local puzzle data
+/permuzzle/preferences.txt
+/permuzzle/sessions/
+/permuzzle/temp/
